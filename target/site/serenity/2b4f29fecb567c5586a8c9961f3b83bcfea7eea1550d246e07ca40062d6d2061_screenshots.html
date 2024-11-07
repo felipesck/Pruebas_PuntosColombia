@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5125e5b81e0548c2b823b64e37dbf8b3a6555202d36e00b1190fc2f041f707a6.html">Pruebas Puntos Colombia</a></span>
+                > <span class="truncate-60"><a
+                    href="2b4f29fecb567c5586a8c9961f3b83bcfea7eea1550d246e07ca40062d6d2061.html">CPLA002 Compra Exitosa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-11-2024 14:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Pruebas Puntos Colombia</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="9ff5e73fa905df97dac71dd5e089003dd6301ce23a4b3889ca808810bb72a616.html">Cpla002
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">CPLA002 Compra Exitosa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" Example: null" width="1920"/>
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" Given Ingresar al portal" width="1920"/>
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" Abrir web" width="1920"/>
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" Given Ingresar al portal (completed)" width="1920"/>
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" When Realizar login &quot;standard_user&quot; &quot;secret_sauce&quot;" width="1920"/>
+                <img src="423ebfbfa9b94e6eb7d93c7229daca75145a55d0193d4fce9b193f2b574d9837.png" title=" Escribir user: standard_user" width="1920"/>
+                <img src="2d7da603291695a6817cec0ee679da898642b9179a81eb4fe736ad0a9ea708cc.png" title=" Escribir user: standard_user (completed)" width="1920"/>
+                <img src="2d7da603291695a6817cec0ee679da898642b9179a81eb4fe736ad0a9ea708cc.png" title=" Escribir password: secret_sauce" width="1920"/>
+                <img src="0a2b846c3c686459c9bbc1bf8c37628e0ab6d70806afb38ac812f65d27458f89.png" title=" Escribir password: secret_sauce (completed)" width="1920"/>
+                <img src="0a2b846c3c686459c9bbc1bf8c37628e0ab6d70806afb38ac812f65d27458f89.png" title=" Seleccionar login" width="1920"/>
+                <img src="49ed0da88bce473984dc3ca2fa539c3b2153dab1950eb3625915961ef0f49e59.png" title=" Seleccionar login (completed)" width="1920"/>
+                <img src="49ed0da88bce473984dc3ca2fa539c3b2153dab1950eb3625915961ef0f49e59.png" title=" When Realizar login &quot;standard_user&quot; &quot;secret_sauce&quot; (completed)" width="1920"/>
+                <img src="49ed0da88bce473984dc3ca2fa539c3b2153dab1950eb3625915961ef0f49e59.png" title=" And Comprar articulo &quot;Bike&quot; &quot;Felipe&quot; &quot;Orjuela&quot; &quot;110111&quot;" width="1920"/>
+                <img src="49ed0da88bce473984dc3ca2fa539c3b2153dab1950eb3625915961ef0f49e59.png" title=" Seleccionar articulo: Bike" width="1920"/>
+                <img src="ba161bdc5cbbae703e035fa3bb6c7c866bf85849a705fe67b212e3657c1b9280.png" title=" Seleccionar articulo: Bike (completed)" width="1920"/>
+                <img src="ba161bdc5cbbae703e035fa3bb6c7c866bf85849a705fe67b212e3657c1b9280.png" title=" Seleccionar add cart" width="1920"/>
+                <img src="fc5c1293016a6a7e54f3250992675e6da6ee4e8871a4d6a203739bd584e4f624.png" title=" Seleccionar add cart (completed)" width="1920"/>
+                <img src="fc5c1293016a6a7e54f3250992675e6da6ee4e8871a4d6a203739bd584e4f624.png" title=" Seleccionar carrito de compras" width="1920"/>
+                <img src="829536207f0d3c81709b74787662ca7b239753838043ec68fddf017b02f379b5.png" title=" Seleccionar carrito de compras (completed)" width="1920"/>
+                <img src="829536207f0d3c81709b74787662ca7b239753838043ec68fddf017b02f379b5.png" title=" Seleccionar checkout" width="1920"/>
+                <img src="879330bf38470632c4a35fe9b57412b5ae17c0ad910eb057f42aa2ea5c53cfec.png" title=" Seleccionar checkout (completed)" width="1920"/>
+                <img src="879330bf38470632c4a35fe9b57412b5ae17c0ad910eb057f42aa2ea5c53cfec.png" title=" Escribir fisrt name: Felipe" width="1920"/>
+                <img src="9e24e2cf6b138c753b7972bcf66ad398cd424bdaa2bdddf94c77183530e84262.png" title=" Escribir fisrt name: Felipe (completed)" width="1920"/>
+                <img src="9e24e2cf6b138c753b7972bcf66ad398cd424bdaa2bdddf94c77183530e84262.png" title=" Escribir last name: Orjuela" width="1920"/>
+                <img src="983d5c6606fb7441ea12b00e626e1648cdecaa4a0dbd7ba6efde2a12aa7f6212.png" title=" Escribir last name: Orjuela (completed)" width="1920"/>
+                <img src="983d5c6606fb7441ea12b00e626e1648cdecaa4a0dbd7ba6efde2a12aa7f6212.png" title=" Escribir zip: 110111" width="1920"/>
+                <img src="cc5ca9ee038c77ec07ba6b32ab76ee22711747f83b0b58b82bdd8c02cec9c8d2.png" title=" Escribir zip: 110111 (completed)" width="1920"/>
+                <img src="cc5ca9ee038c77ec07ba6b32ab76ee22711747f83b0b58b82bdd8c02cec9c8d2.png" title=" Seleccionar continue" width="1920"/>
+                <img src="ad79912f56f9ad49b82a4ba12adfde75a28cfd702a770d104e1d433824152e1d.png" title=" Seleccionar continue (completed)" width="1920"/>
+                <img src="ad79912f56f9ad49b82a4ba12adfde75a28cfd702a770d104e1d433824152e1d.png" title=" Seleecionar finish" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" And Comprar articulo &quot;Bike&quot; &quot;Felipe&quot; &quot;Orjuela&quot; &quot;110111&quot;" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Seleecionar finish (completed)" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Then Valido compra de articulo" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Valido compra exitosa" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Valido compra exitosa (completed)" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Then Valido compra de articulo (completed)" width="1920"/>
+                <img src="5235ac10e5cd837502983c1c18d3977a6088a0fea86c7e9da581455adc23af5b.png" title=" Example: null (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
